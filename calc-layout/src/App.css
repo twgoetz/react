@@ -1,0 +1,52 @@
+:root {
+  --inner-container-margin: 30px;
+}
+
+.App {
+  border: unset;
+}
+
+#root {
+  border: 0px;
+}
+
+.calcContainer {
+  background-color: rgb(225, 235, 247);
+  border: 3px solid rgb(31, 87, 164);
+  border-radius: 10px;
+  width: 300px;
+  margin: 20px;
+}
+
+.display {
+  height: 30px;
+  border: 1px solid black;
+  background-color: white;
+  margin: var(--inner-container-margin);
+}
+
+.keys {
+  height: 200px;
+  margin: var(--inner-container-margin);
+}
+
+.keyRow {
+  width: 100%;
+}
+
+.key {
+  border: 2px solid rgb(37, 70, 122);
+  border-radius: 4px;
+  background-color: rgb(200, 218, 244);
+  display: inline-block;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 10px;
+  margin: 2px;
+  height: 25px;
+  width: 40px;
+}
+
+.key:hover {
+  background-color: rgb(121, 166, 246);
+}
